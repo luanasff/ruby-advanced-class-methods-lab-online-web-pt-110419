@@ -64,7 +64,7 @@ class Song
        song.name = mp3_file.split(/[^a-zA-Z\s]|\s-\s/)[1] 
        song.artist_name = mp3_file.split(/[^a-zA-Z\s]|\s-\s/)[0]
        song 
-  end 
+     end 
   
       
  
