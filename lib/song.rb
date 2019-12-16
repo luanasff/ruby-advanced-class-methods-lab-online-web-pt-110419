@@ -47,9 +47,13 @@ class Song
      
      
     def self.find_or_create_by_name(name)
+    
+      @@all.find{|person| person.name == name}
+       @@all << self 
+     end
+ 
       
-      
-    end 
+ 
      
      
 end 
