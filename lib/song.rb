@@ -33,7 +33,8 @@ class Song
     def self.create_by_name(name)
       song=self.new
       song.name = name 
-      name.save 
+      song.name.save
+      song 
       
   
   end 
