@@ -72,7 +72,11 @@ class Song
   
   
    
- 
+   def self_create_from_filename(filename)
+      song = self.new 
+      song.arti
+      
+      
       
     def self.destroy_all
       self.all.clear
